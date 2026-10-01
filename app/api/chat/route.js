@@ -70,7 +70,7 @@ export async function POST(req) {
     results.matches.forEach((match) => {
         resultString += `
         Professor: ${match.id}
-        Review: ${match.metadata.stars}
+        Review: ${match.metadata.review}
         Subject: ${match.metadata.subject}
         Stars: ${match.metadata.stars}
         \n\n
